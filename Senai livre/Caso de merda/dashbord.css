@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.commerce{
+    padding: 50px;
+    text-align: start;
+}
+
+.topo, .reto{
+    display: flex;
+    gap: 20px;
+}
+
+.vendas-mes{
+    background-image: url(img/xxi.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 20px;
+    background-position-x: 95%;
+}
+
+.produtos-ativos{
+   background-image: url(img/xxo.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+   padding: 20px;
+   background-position-x: 95%;
+}
+
+.fornecedores{
+    background-image: url(img/xxe.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 20px;
+    background-position-x: 95%;
+}
+
+.clientes{
+    background-image: url(img/xxx.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 20px;
+    background-position-x: 95%;
+}
+
+.dash, .itens-card, .carrinho, .pedido-vendas, .coluna{
+    display:grid
+} 
+
+.dash {
+    grid-template-columns: 2fr 10fr;
+    min-height: 100vh;
+}
+
+.div-conteudo{
+    height: 100vh;
+    background: #eedcdc97;
+}
+
+.div-menu-lateral {
+    background-color: #1E1E2D;
+} 
+
+.div-menu-lateral .logo {
+    padding: 20px 0px;
+    border-bottom: 1px dashed #fff;
+}
+
+.div-menu-lateral img {
+    max-width: 80%;
+        display: block;
+        margin: 0 auto;
+}
+
+.div-menu-lateral nav a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.itens-card {
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin: 20px;
+    gap: 40px;
+}
+
+.vendas-mes{
+    background-color: green;
+}
+
+
+.carrinho{
+    grid-template-columns: 4fr 2fr;
+    margin: 20px;
+    gap: 40px;
+}
+
+.pedido-vendas{
+    grid-template-columns: 2fr 4fr;
+    margin: 20px;
+    gap: 40px;
+}
+
+.pedido-vendas, .carrinho, .itens-card, .topo, .reto{
+    padding: 20px;
+}
+
+.coluna{
+    padding: 20px;
+    gap: 20px;
+}
+
+.produtos-ativos, .fornecedores, .clientes, .carrinho-ativo, .novo-aplicativo, .pedido, .venda{
+    box-shadow: #1E1E2D 2px;
+    background: white;
+}
